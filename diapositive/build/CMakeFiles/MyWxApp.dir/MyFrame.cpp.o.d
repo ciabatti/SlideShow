@@ -1,6 +1,6 @@
 CMakeFiles/MyWxApp.dir/MyFrame.cpp.o: \
-  /Users/lorenzociabatti/Desktop/diapositive/MyFrame.cpp \
-  /Users/lorenzociabatti/Desktop/diapositive/MyFrame.h \
+  /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/MyFrame.cpp \
+  /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/MyFrame.h \
   /usr/local/include/wx-3.2/wx/wx.h /usr/local/include/wx-3.2/wx/defs.h \
   /usr/local/include/wx-3.2/wx/platform.h \
   /usr/local/include/wx-3.2/wx/compiler.h \

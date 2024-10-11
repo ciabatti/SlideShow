@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.30.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/lorenzociabatti/Desktop/diapositive
+CMAKE_SOURCE_DIR = /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/lorenzociabatti/Desktop/diapositive/build
+CMAKE_BINARY_DIR = /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MyWxApp.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/MyWxApp.dir/progress.make
 include CMakeFiles/MyWxApp.dir/flags.make
 
 CMakeFiles/MyWxApp.dir/main.cpp.o: CMakeFiles/MyWxApp.dir/flags.make
-CMakeFiles/MyWxApp.dir/main.cpp.o: /Users/lorenzociabatti/Desktop/diapositive/main.cpp
+CMakeFiles/MyWxApp.dir/main.cpp.o: /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/main.cpp
 CMakeFiles/MyWxApp.dir/main.cpp.o: CMakeFiles/MyWxApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lorenzociabatti/Desktop/diapositive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyWxApp.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyWxApp.dir/main.cpp.o -MF CMakeFiles/MyWxApp.dir/main.cpp.o.d -o CMakeFiles/MyWxApp.dir/main.cpp.o -c /Users/lorenzociabatti/Desktop/diapositive/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyWxApp.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyWxApp.dir/main.cpp.o -MF CMakeFiles/MyWxApp.dir/main.cpp.o.d -o CMakeFiles/MyWxApp.dir/main.cpp.o -c /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/main.cpp
 
 CMakeFiles/MyWxApp.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyWxApp.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lorenzociabatti/Desktop/diapositive/main.cpp > CMakeFiles/MyWxApp.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/main.cpp > CMakeFiles/MyWxApp.dir/main.cpp.i
 
 CMakeFiles/MyWxApp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyWxApp.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lorenzociabatti/Desktop/diapositive/main.cpp -o CMakeFiles/MyWxApp.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/main.cpp -o CMakeFiles/MyWxApp.dir/main.cpp.s
 
 CMakeFiles/MyWxApp.dir/MyFrame.cpp.o: CMakeFiles/MyWxApp.dir/flags.make
-CMakeFiles/MyWxApp.dir/MyFrame.cpp.o: /Users/lorenzociabatti/Desktop/diapositive/MyFrame.cpp
+CMakeFiles/MyWxApp.dir/MyFrame.cpp.o: /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/MyFrame.cpp
 CMakeFiles/MyWxApp.dir/MyFrame.cpp.o: CMakeFiles/MyWxApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lorenzociabatti/Desktop/diapositive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyWxApp.dir/MyFrame.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyWxApp.dir/MyFrame.cpp.o -MF CMakeFiles/MyWxApp.dir/MyFrame.cpp.o.d -o CMakeFiles/MyWxApp.dir/MyFrame.cpp.o -c /Users/lorenzociabatti/Desktop/diapositive/MyFrame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyWxApp.dir/MyFrame.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MyWxApp.dir/MyFrame.cpp.o -MF CMakeFiles/MyWxApp.dir/MyFrame.cpp.o.d -o CMakeFiles/MyWxApp.dir/MyFrame.cpp.o -c /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/MyFrame.cpp
 
 CMakeFiles/MyWxApp.dir/MyFrame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MyWxApp.dir/MyFrame.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lorenzociabatti/Desktop/diapositive/MyFrame.cpp > CMakeFiles/MyWxApp.dir/MyFrame.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/MyFrame.cpp > CMakeFiles/MyWxApp.dir/MyFrame.cpp.i
 
 CMakeFiles/MyWxApp.dir/MyFrame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MyWxApp.dir/MyFrame.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lorenzociabatti/Desktop/diapositive/MyFrame.cpp -o CMakeFiles/MyWxApp.dir/MyFrame.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/MyFrame.cpp -o CMakeFiles/MyWxApp.dir/MyFrame.cpp.s
 
 # Object files for target MyWxApp
 MyWxApp_OBJECTS = \
@@ -109,7 +109,7 @@ MyWxApp: CMakeFiles/MyWxApp.dir/main.cpp.o
 MyWxApp: CMakeFiles/MyWxApp.dir/MyFrame.cpp.o
 MyWxApp: CMakeFiles/MyWxApp.dir/build.make
 MyWxApp: CMakeFiles/MyWxApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/lorenzociabatti/Desktop/diapositive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MyWxApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MyWxApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyWxApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/MyWxApp.dir/clean:
 .PHONY : CMakeFiles/MyWxApp.dir/clean
 
 CMakeFiles/MyWxApp.dir/depend:
-	cd /Users/lorenzociabatti/Desktop/diapositive/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lorenzociabatti/Desktop/diapositive /Users/lorenzociabatti/Desktop/diapositive /Users/lorenzociabatti/Desktop/diapositive/build /Users/lorenzociabatti/Desktop/diapositive/build /Users/lorenzociabatti/Desktop/diapositive/build/CMakeFiles/MyWxApp.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/build /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/build /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/build/CMakeFiles/MyWxApp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/MyWxApp.dir/depend
 
