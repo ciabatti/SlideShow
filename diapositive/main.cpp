@@ -11,7 +11,7 @@ wxIMPLEMENT_APP(MyWxApp);
 
 bool MyWxApp::OnInit() {
     wxInitAllImageHandlers();
-    MyFrame* frame = new MyFrame("My Wx App");
+    MyFrame* frame = new MyFrame("Slide Show");
     frame->Show(true);
     return true;
 }
