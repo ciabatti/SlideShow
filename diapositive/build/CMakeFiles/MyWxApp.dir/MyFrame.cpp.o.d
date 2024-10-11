@@ -27,6 +27,7 @@ CMakeFiles/MyWxApp.dir/MyFrame.cpp.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_wchar_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_null.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_nullptr_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_max_align_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_offsetof.h \
   /usr/local/include/wx-3.2/wx/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/sys/types.h \
@@ -867,23 +868,21 @@ CMakeFiles/MyWxApp.dir/MyFrame.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__bit/has_single_bit.h \
   /usr/local/include/wx-3.2/wx/afterstd.h \
   /usr/local/include/wx-3.2/wx/stringops.h \
-  /usr/local/include/wx-3.2/wx/iosfwrap.h \
-  /usr/local/include/wx-3.2/wx/msgout.h \
-  /usr/local/include/wx-3.2/wx/xti.h /usr/local/include/wx-3.2/wx/rtti.h \
-  /usr/local/include/wx-3.2/wx/flags.h \
-  /usr/local/include/wx-3.2/wx/xti2.h \
-  /usr/local/include/wx-3.2/wx/dynarray.h \
-  /usr/local/include/wx-3.2/wx/vector.h \
-  /usr/local/include/wx-3.2/wx/scopeguard.h \
-  /usr/local/include/wx-3.2/wx/except.h \
-  /usr/local/include/wx-3.2/wx/meta/movable.h \
-  /usr/local/include/wx-3.2/wx/meta/pod.h \
-  /usr/local/include/wx-3.2/wx/meta/if.h \
-  /usr/local/include/wx-3.2/wx/list.h \
-  /usr/local/include/wx-3.2/wx/hash.h \
-  /usr/local/include/wx-3.2/wx/hashmap.h \
-  /usr/local/include/wx-3.2/wx/wxcrt.h \
-  /usr/local/include/wx-3.2/wx/arrstr.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/binary_negate.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/bind.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/bind_back.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/bind_front.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/binder1st.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/binder2nd.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/array \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/unordered_map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/is_transparent.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__hash_table \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__node_handle \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__bit_reference \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/formatter.h \
@@ -910,7 +909,6 @@ CMakeFiles/MyWxApp.dir/MyFrame.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/unicode.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/extended_grapheme_cluster_table.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/width_estimation_table.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/array \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__mutex/once_flag.h \
@@ -951,6 +949,34 @@ CMakeFiles/MyWxApp.dir/MyFrame.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory/temp_value.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__split_buffer \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/compose.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/default_searcher.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/function.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory/builtin_new_allocator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/strip_signature.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/mem_fn.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/not_fn.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/unary_negate.h \
+  /usr/local/include/wx-3.2/wx/iosfwrap.h \
+  /usr/local/include/wx-3.2/wx/msgout.h \
+  /usr/local/include/wx-3.2/wx/xti.h /usr/local/include/wx-3.2/wx/rtti.h \
+  /usr/local/include/wx-3.2/wx/flags.h \
+  /usr/local/include/wx-3.2/wx/xti2.h \
+  /usr/local/include/wx-3.2/wx/dynarray.h \
+  /usr/local/include/wx-3.2/wx/vector.h \
+  /usr/local/include/wx-3.2/wx/scopeguard.h \
+  /usr/local/include/wx-3.2/wx/except.h \
+  /usr/local/include/wx-3.2/wx/meta/movable.h \
+  /usr/local/include/wx-3.2/wx/meta/pod.h \
+  /usr/local/include/wx-3.2/wx/meta/if.h \
+  /usr/local/include/wx-3.2/wx/list.h \
+  /usr/local/include/wx-3.2/wx/hash.h \
+  /usr/local/include/wx-3.2/wx/hashmap.h \
+  /usr/local/include/wx-3.2/wx/wxcrt.h \
+  /usr/local/include/wx-3.2/wx/arrstr.h \
   /usr/local/include/wx-3.2/wx/intl.h \
   /usr/local/include/wx-3.2/wx/localedefs.h \
   /usr/local/include/wx-3.2/wx/translation.h \
@@ -1143,31 +1169,6 @@ CMakeFiles/MyWxApp.dir/MyFrame.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__ranges/ref_view.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/deque \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/functional \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/binary_negate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/bind.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/bind_back.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/bind_front.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/binder1st.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/binder2nd.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/unordered_map \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/is_transparent.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__hash_table \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/compose.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/default_searcher.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/function.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__memory/builtin_new_allocator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__type_traits/strip_signature.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/mem_fn.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/not_fn.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__functional/unary_negate.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/format_functions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/formatter_char.h \
@@ -1205,4 +1206,6 @@ CMakeFiles/MyWxApp.dir/MyFrame.cpp.o: \
   /usr/local/include/wx-3.2/wx/osx/filedlg.h \
   /usr/local/include/wx-3.2/wx/mdi.h \
   /usr/local/include/wx-3.2/wx/osx/mdi.h \
+  /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/Observer.h \
+  /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/Subject.h \
   /usr/local/include/wx-3.2/wx/dir.h

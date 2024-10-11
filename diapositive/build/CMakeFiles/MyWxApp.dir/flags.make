@@ -6,5 +6,5 @@ CXX_DEFINES = -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ 
 
 CXX_INCLUDES = -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-3.2 -isystem /usr/local/include/wx-3.2
 
-CXX_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
+CXX_FLAGS = -std=gnu++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.7
 
