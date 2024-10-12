@@ -1,4 +1,4 @@
-CMakeFiles/MyWxApp.dir/MyFrame.cpp.o: \
+CMakeFiles/SlideShow.dir/MyFrame.cpp.o: \
   /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/MyFrame.cpp \
   /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/MyFrame.h \
   /usr/local/include/wx-3.2/wx/wx.h /usr/local/include/wx-3.2/wx/defs.h \

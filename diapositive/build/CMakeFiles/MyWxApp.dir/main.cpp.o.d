@@ -1,4 +1,4 @@
-CMakeFiles/MyWxApp.dir/main.cpp.o: \
+CMakeFiles/SlideShow.dir/main.cpp.o: \
   /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/main.cpp \
   /usr/local/include/wx-3.2/wx/wx.h /usr/local/include/wx-3.2/wx/defs.h \
   /usr/local/include/wx-3.2/wx/platform.h \

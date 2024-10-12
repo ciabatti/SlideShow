@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/MyWxApp.dir/all
+all: CMakeFiles/SlideShow.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/MyWxApp.dir/clean
+clean: CMakeFiles/SlideShow.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/MyWxApp.dir
+# Target rules for target CMakeFiles/SlideShow.dir
 
 # All Build rule for target.
-CMakeFiles/MyWxApp.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyWxApp.dir/build.make CMakeFiles/MyWxApp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyWxApp.dir/build.make CMakeFiles/MyWxApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/build/CMakeFiles --progress-num=1,2,3 "Built target MyWxApp"
-.PHONY : CMakeFiles/MyWxApp.dir/all
+CMakeFiles/SlideShow.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SlideShow.dir/build.make CMakeFiles/SlideShow.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SlideShow.dir/build.make CMakeFiles/SlideShow.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/build/CMakeFiles --progress-num=1,2,3 "Built target SlideShow"
+.PHONY : CMakeFiles/SlideShow.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/MyWxApp.dir/rule: cmake_check_build_system
+CMakeFiles/SlideShow.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyWxApp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SlideShow.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/build/CMakeFiles 0
-.PHONY : CMakeFiles/MyWxApp.dir/rule
+.PHONY : CMakeFiles/SlideShow.dir/rule
 
 # Convenience name for target.
-MyWxApp: CMakeFiles/MyWxApp.dir/rule
-.PHONY : MyWxApp
+SlideShow: CMakeFiles/SlideShow.dir/rule
+.PHONY : SlideShow
 
 # clean rule for target.
-CMakeFiles/MyWxApp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyWxApp.dir/build.make CMakeFiles/MyWxApp.dir/clean
-.PHONY : CMakeFiles/MyWxApp.dir/clean
+CMakeFiles/SlideShow.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SlideShow.dir/build.make CMakeFiles/SlideShow.dir/clean
+.PHONY : CMakeFiles/SlideShow.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

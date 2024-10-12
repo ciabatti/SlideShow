@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MyWxApp
+# Target rules for targets named SlideShow
 
 # Build rule for target.
-MyWxApp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyWxApp
-.PHONY : MyWxApp
+SlideShow: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SlideShow
+.PHONY : SlideShow
 
 # fast build rule for target.
-MyWxApp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyWxApp.dir/build.make CMakeFiles/MyWxApp.dir/build
-.PHONY : MyWxApp/fast
+SlideShow/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SlideShow.dir/build.make CMakeFiles/SlideShow.dir/build
+.PHONY : SlideShow/fast
 
 MyFrame.o: MyFrame.cpp.o
 .PHONY : MyFrame.o
 
 # target to build an object file
 MyFrame.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyWxApp.dir/build.make CMakeFiles/MyWxApp.dir/MyFrame.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SlideShow.dir/build.make CMakeFiles/SlideShow.dir/MyFrame.cpp.o
 .PHONY : MyFrame.cpp.o
 
 MyFrame.i: MyFrame.cpp.i
@@ -142,7 +142,7 @@ MyFrame.i: MyFrame.cpp.i
 
 # target to preprocess a source file
 MyFrame.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyWxApp.dir/build.make CMakeFiles/MyWxApp.dir/MyFrame.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SlideShow.dir/build.make CMakeFiles/SlideShow.dir/MyFrame.cpp.i
 .PHONY : MyFrame.cpp.i
 
 MyFrame.s: MyFrame.cpp.s
@@ -150,7 +150,7 @@ MyFrame.s: MyFrame.cpp.s
 
 # target to generate assembly for a file
 MyFrame.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyWxApp.dir/build.make CMakeFiles/MyWxApp.dir/MyFrame.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SlideShow.dir/build.make CMakeFiles/SlideShow.dir/MyFrame.cpp.s
 .PHONY : MyFrame.cpp.s
 
 main.o: main.cpp.o
@@ -158,7 +158,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyWxApp.dir/build.make CMakeFiles/MyWxApp.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SlideShow.dir/build.make CMakeFiles/SlideShow.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -166,7 +166,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyWxApp.dir/build.make CMakeFiles/MyWxApp.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SlideShow.dir/build.make CMakeFiles/SlideShow.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +174,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyWxApp.dir/build.make CMakeFiles/MyWxApp.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SlideShow.dir/build.make CMakeFiles/SlideShow.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -185,7 +185,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MyWxApp"
+	@echo "... SlideShow"
 	@echo "... MyFrame.o"
 	@echo "... MyFrame.i"
 	@echo "... MyFrame.s"

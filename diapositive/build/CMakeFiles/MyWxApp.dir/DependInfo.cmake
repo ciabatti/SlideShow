@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/MyFrame.cpp" "CMakeFiles/MyWxApp.dir/MyFrame.cpp.o" "gcc" "CMakeFiles/MyWxApp.dir/MyFrame.cpp.o.d"
-  "/Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/main.cpp" "CMakeFiles/MyWxApp.dir/main.cpp.o" "gcc" "CMakeFiles/MyWxApp.dir/main.cpp.o.d"
+  "/Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/MyFrame.cpp" "CMakeFiles/SlideShow.dir/MyFrame.cpp.o" "gcc" "CMakeFiles/SlideShow.dir/MyFrame.cpp.o.d"
+  "/Users/lorenzociabatti/Progetti/GITHUB/SlideShow/diapositive/main.cpp" "CMakeFiles/SlideShow.dir/main.cpp.o" "gcc" "CMakeFiles/SlideShow.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -3,14 +3,14 @@
 #include "Subject.h" 
 
 // Classe dell'applicazione principale
-class MyWxApp : public wxApp {
+class SlideShow : public wxApp {
 public:
     virtual bool OnInit();
 };
 
-wxIMPLEMENT_APP(MyWxApp);
+wxIMPLEMENT_APP(SlideShow);
 
-bool MyWxApp::OnInit() {
+bool SlideShow::OnInit() {
     wxInitAllImageHandlers();
 
     // Crea un oggetto Subject
