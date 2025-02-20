@@ -8,5 +8,7 @@ include(${wxWidgets_USE_FILE})
 
 add_executable(SlideShow main.cpp MyFrame.cpp
         ImageLoader.cpp
-        ImageLoader.h)
+        ImageLoader.h
+        MyTest/ImageLoaderTest.cpp)
 target_link_libraries(SlideShow ${wxWidgets_LIBRARIES})
+add_subdirectory(MyTest)
