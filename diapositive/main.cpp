@@ -11,7 +11,6 @@ wxIMPLEMENT_APP(SlideShow);
 
 bool SlideShow::OnInit() {
     wxInitAllImageHandlers();
-    int prova=0;
     ImageLoader* imageLoader = new ImageLoader();
     MyFrame* frame = new MyFrame("Slide Show", imageLoader);
     frame->Show(true);
