@@ -3,29 +3,25 @@
 
 #include <wx/wx.h>
 #include <wx/timer.h>
-#include <vector>
 #include "Observer.h"
-#include "Subject.h"
+#include "ImageLoader.h"
 
 class MyFrame : public wxFrame, public Observer {
 private:
-    wxStaticBitmap* imageDisplay; // Per mostrare le immagini
-    wxButton* selectFolderButton; // Pulsante per selezionare la cartella
-    wxTimer slideshowTimer;       // Timer per il slideshow
-    std::vector<wxString> imageFiles; // Lista delle immagini
-    int currentImageIndex;        // Indice corrente dell'immagine
-    Subject* subject;             // Riferimento al Subject
+    wxStaticBitmap* imageDisplay;
+    wxButton* selectFolderButton;
+    wxTimer slideshowTimer;
+    ImageLoader* imageLoader; // Nuovo oggetto per la gestione delle immagini
 
 public:
-    MyFrame(const wxString& title, Subject* slideshowSubject);
-    
-    void OnSelectFolder(wxCommandEvent& event); // Gestione selezione cartella
-    void LoadImagesFromFolder(const wxString& folderPath); // Carica immagini
-    void OnNextImage(wxTimerEvent& event); // Cambia immagine dopo 3 secondi
-    void ShowImage(const wxString& imagePath); // Mostra immagine
-    void Update(const wxString& imagePath) override; // Metodo Observer per aggiornare l'immagine
+    MyFrame(const wxString& title, ImageLoader* loader);
+
+    void OnSelectFolder(wxCommandEvent& event);
+    void OnNextImage(wxTimerEvent& event);
+    void ShowImage(const wxString& imagePath);
+    void Update(const wxString& imagePath) override; // Metodo Observer
 
     wxDECLARE_EVENT_TABLE();
 };
 
-#endif // MYFRAME_H
+#endif

@@ -6,5 +6,7 @@ project(SlideShow)
 find_package(wxWidgets REQUIRED COMPONENTS core base)
 include(${wxWidgets_USE_FILE})
 
-add_executable(SlideShow main.cpp MyFrame.cpp)
+add_executable(SlideShow main.cpp MyFrame.cpp
+        ImageLoader.cpp
+        ImageLoader.h)
 target_link_libraries(SlideShow ${wxWidgets_LIBRARIES})
