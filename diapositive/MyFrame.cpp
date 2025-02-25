@@ -28,7 +28,7 @@ void MyFrame::OnSelectFolder(wxCommandEvent& event) {
         imageLoader->LoadImagesFromFolder(folderPath);
 
         if (imageLoader->HasImages()) {
-            slideshowTimer.Start(3000);
+            slideshowTimer.Start(800);
         }
     }
 }
